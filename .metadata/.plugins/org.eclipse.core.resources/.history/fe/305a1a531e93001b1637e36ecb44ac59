@@ -1,0 +1,16 @@
+package AssignmentSet4;
+
+public class Participant {
+	private static int counter;
+	private String registrationId;
+	private String name;
+	private long contactNumber;
+	private String city;
+	
+	public Participant(String name, long contactNumber, String city) {
+		this.registrationId = ++Participant.counter;
+		this.name = name;
+		this.contactNumber = contactNumber;
+		this.city = city;
+	}
+}

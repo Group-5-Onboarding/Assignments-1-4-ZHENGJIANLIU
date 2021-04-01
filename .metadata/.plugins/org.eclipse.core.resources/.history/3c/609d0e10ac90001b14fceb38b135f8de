@@ -1,0 +1,12 @@
+package demo;
+
+public class SumOfTwoNumbers {
+	public static void main(String args[]) {
+		int sum ;
+		int number1 = 10;
+		int number2 = 20;
+		int total = 0;
+		sum = number1 + number2;
+		System.out.println(sum);
+	}
+}

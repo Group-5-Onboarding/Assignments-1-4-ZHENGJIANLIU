@@ -1,0 +1,9 @@
+package demo;
+
+public class Customer {
+	public static void main(String[] args) {
+		int a = 12*3-9/2;
+		int b = 14*4+175/8;
+		System.out.println(a + " " + b--);
+	}
+}

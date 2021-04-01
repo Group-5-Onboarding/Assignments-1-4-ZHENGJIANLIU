@@ -1,0 +1,14 @@
+package AssignmentSet2;
+import java.util.Scanner;
+public class FindingDivisibleNumberByItsSum {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		String number = input.next().toString();
+		int total;
+		
+		for(int i = 0; i< number.length();i++) {
+			total += Character.getNumericValue(number.toCharArray()[i]);
+		}
+	}
+}

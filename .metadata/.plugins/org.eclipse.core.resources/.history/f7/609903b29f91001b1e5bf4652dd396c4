@@ -1,0 +1,21 @@
+package SwitftFood;
+
+public class Restaurant {
+	public String restaurantName;
+	public long restaurantContact;
+	public String restaurantAddress;
+	public float rating;
+	
+	public void displayRestaurantDetail() {
+		System.out.println("Restaurant details \n***********");
+		System.out.println("Restaurant Name : " + customerId);
+		System.out.println("Restaurant Rating: " + customerName);
+		System.out.println("Restaurant Contact: " + contactNumber);
+		System.out.println("Restaurant Address: " + address);
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

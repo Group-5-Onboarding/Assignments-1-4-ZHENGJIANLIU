@@ -1,0 +1,26 @@
+package AssignmentSet1;
+import java.util.Scanner;
+
+public class Assignment8 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Account Number: ");
+		String accountNumber = input.nextLine();
+		if(accountNumber.charAt(0)!= '1') {
+			System.out.println("Validation failed");
+			return;
+		}
+
+		System.out.println("Enter Salary: ");
+		int salary = input.nextInt();
+		System.out.println("Enter Account Balance: ");
+		int accountBalance = input.nextInt();
+		System.out.println("Enter Loan Type(Car, House, Business): ");
+		String loanType = input.next();
+		System.out.println("Enter Loan Amount expected: ");
+		int loanAmount = input.nextInt();
+		System.out.println("Enter EMIs expected: ");
+		int emis = input.nextInt();
+		
+	}
+}

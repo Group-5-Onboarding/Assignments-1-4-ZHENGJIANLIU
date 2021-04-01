@@ -1,0 +1,9 @@
+package demo1;
+
+public class hai {
+	public static void main(String args[]) {
+		int i = 101;
+		double newi = 101;
+		System.out.println(newi);
+	}
+}

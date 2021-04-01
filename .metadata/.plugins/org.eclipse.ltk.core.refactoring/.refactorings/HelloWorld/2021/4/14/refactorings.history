@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AssignmentSet4.removeViolations&apos; to &apos;traveler&apos;&#x0A;- Original project: &apos;HelloWorld&apos;&#x0A;- Original element: &apos;AssignmentSet4.removeViolations&apos;&#x0A;- Renamed element: &apos;AssignmentSet4.traveler&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;removeViolations&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;AssignmentSet4{removeViolations.java[removeViolations" matchStrategy="1" name="traveler" qualified="false" references="true" similarDeclarations="false" stamp="1617301198694" textual="false" version="1.0"/>
+</session>

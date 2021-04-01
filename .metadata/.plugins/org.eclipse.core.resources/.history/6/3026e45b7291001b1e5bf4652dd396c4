@@ -1,0 +1,28 @@
+package demo330;
+
+class Customer {
+	public String customerId;
+	public String customerName;
+	public String address;
+	public long contactNumber;
+	
+	public void displayCustomerDetails() {
+		System.out.println("Displaying customer details \n***********");
+		System.out.println("Customer Id : " + customerId);
+		System.out.println("Customer Name : " + customerName);
+		System.out.println("Contact Number : " + contactNumber);
+		System.out.println("Address : " + address);
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		Customer c1 = new Customer();
+		
+		c1.customerId = "C100";
+		c1.customerName = "Jay";
+		c1.address = "9890 80th st";
+		
+		c1.displayCustomerDetails();
+	}
+}
+

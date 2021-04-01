@@ -1,0 +1,24 @@
+package AssignmentSet2;
+import java.util.Scanner;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		System.out.println("Enter a word: ");
+		Scanner input = new Scanner(System.in);
+		String word = input.next();
+		String reversedWord = "";
+		int wordLength = word.length();
+		
+		for(int count = wordLength-1; count >= 0; count--) {
+			reversedWord += word.toCharArray()[count];
+		}
+		String stringInput = (String)word;
+		String stringReversedInput = (String)reversedWord;
+		System.out.println(reversedWord + " " + word);
+		if(stringInput == stringReversedInput) {
+			System.out.println("same");
+		}else {
+			System.out.println("not");
+		}
+	}
+}

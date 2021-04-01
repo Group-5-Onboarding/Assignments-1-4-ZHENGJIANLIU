@@ -1,0 +1,27 @@
+package SwitftFood;
+
+import java.util.Scanner;
+
+public class Tester {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter sub total price:");
+		int subTotal = input.nextInt();
+		
+		Order o1 = new Order("1000", "Spinach Alfredo Pasta");
+		Order o2 = new Order("1001", "Garlic Shrimp");
+		Order o3 = new Order();
+
+		System.out.println("Order details");
+		System.out.println("Order Id: " + o1.orderId);
+		System.out.println("Ordered Food: " + o1.orderedFoods);
+		System.out.println("Order Status: " + o1.status);
+		System.out.println("Total Price: " + o1.calculateTotalPrice(subTotal));
+		System.out.println("\n------------------\n");
+		System.out.println("Status of order 3: " + o3.status);
+		System.out.println("Status of order 2: " + o2.status);
+		System.out.println("Id of order 2: " + o2.orderId);
+		System.out.println("Items ordered in order 2: " + o2.orderedFoods);
+		
+	}
+}

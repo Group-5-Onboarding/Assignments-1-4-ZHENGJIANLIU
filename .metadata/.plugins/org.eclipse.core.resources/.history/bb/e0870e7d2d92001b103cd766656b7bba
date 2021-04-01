@@ -1,0 +1,9 @@
+package demo331;
+
+public class MemoryManagement {
+	public static void main(String[] args) {
+		String i = "h";
+		String k = "h";
+		System.out.println(i==k);
+	}
+}

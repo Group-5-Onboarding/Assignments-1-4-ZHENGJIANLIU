@@ -1,0 +1,10 @@
+package AssignmentSet1;
+
+public class Assignment2 {
+	public static void main(String[] args) {
+		double pi = 3.14;
+		int radius = 4;
+		double area = pi * radius * radius;
+		System.out.println(area);
+	}
+}

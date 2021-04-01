@@ -1,0 +1,17 @@
+package com.infy;
+
+class Food {
+	private String foodName;
+	private String cuisine;
+	private String foodType;
+	private int quantityAvailable;
+	private double unitPrice;
+	
+	public Food(String foodName,String cuisine, String foodType, int quantityAvailable, double unitPrice){
+		this.foodName = foodName;
+		this.cuisine = cuisine;
+		this.foodType = foodType;
+		this.quantityAvailable = quantityAvailable;
+		this.unitPrice = unitPrice;
+	}
+}

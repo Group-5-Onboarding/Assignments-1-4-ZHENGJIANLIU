@@ -1,0 +1,21 @@
+package AssignmentSet4;
+
+public class Booking {
+	private String customerEmail;
+	private int seatsRequired;
+	private boolean isBooked;
+	private static int seatsAvailable;
+	
+	static {
+		seatsAvailable = 400;
+	}
+	public Booking(String customerEmail, int seatsRequired) {
+		seatAvailable -=seatsRequired;
+		this.customerEmail = customerEmail;
+		this.seatsRequired = seatsRequired;
+		if(seatsRequired <= seatsAvailable) {
+			isBooked();
+		}
+	}
+	
+}

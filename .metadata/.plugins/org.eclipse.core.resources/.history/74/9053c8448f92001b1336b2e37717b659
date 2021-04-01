@@ -1,0 +1,22 @@
+package AssignmentSet3;
+
+public class SpecialCharacterOrganizer {
+	public static String moveSpecialCharacters(String str){
+		//Implement your code here and change the return value accordingly
+		String letters = "";
+		String specials = "";
+		
+		char[] characters = str.toCharArray();
+		for(char c: characters)
+			
+
+        return null;
+	}
+	
+	public static void main(String args[]){
+	    String str = "He@#$llo!*&";
+	    System.out.println(moveSpecialCharacters(str));
+	}
+	
+	
+}

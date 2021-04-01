@@ -1,0 +1,23 @@
+package AssignmentSet3;
+
+public class ReverseEachWord {
+//	public static String reverseEachWord(String str){
+//	    //Implement your code here and change the return value accordingly
+//		
+//		String result = "";
+//		
+//		char[] 
+//        return null;
+//	}
+	
+	public static void main(String args[]){
+	    String str = "all cows eat grass";
+//	    System.out.println(reverseEachWord(str));
+	    
+	    char[] cs = str.toCharArray();
+	    for(char c: cs)
+	    	if(c.equals(" ")) {
+	    		System.out.println("yes");	    		
+	    	}
+	}
+}

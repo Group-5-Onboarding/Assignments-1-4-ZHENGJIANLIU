@@ -1,0 +1,23 @@
+package AssignmentSet3;
+
+public class SalaryAnalysis {
+	
+	public double findDetails(double[] salary) {		
+		int salariesLength = salary.length;
+		double total = 0;
+		
+		for(double s: salary) {
+			total+= s;
+		}
+		double average = total / salariesLength;
+		
+		double[] details = {average};
+		return ;
+		
+	}
+	public static void main(String[] args) {
+		double [] salary = {23500.0, 25080.0, 28760.0, 22340.0, 19890.0};
+		double[] details = findDetails(salary);
+		
+	}
+}

@@ -1,0 +1,18 @@
+package AssignmentSet1;
+import java.util.Scanner;
+
+public class Assignment5 {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a value: ");
+		int a = input.nextInt();
+		System.out.println("Enter b value: ");
+		int b = input.nextInt();
+		System.out.println("Enter c value: ");
+		int c = input.nextInt();
+		
+		double d = Math.pow(b, 2) - (4*a*c);
+		double r1 = (-b + d)/(2*a);
+		double r2 = (-b - d)/(2*a);
+	}
+}

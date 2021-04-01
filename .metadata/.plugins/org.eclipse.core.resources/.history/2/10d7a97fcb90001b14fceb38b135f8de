@@ -1,0 +1,20 @@
+package AssignmentSet1;
+
+public class Assignment5 {
+	public static void main(String[] args){
+		int a = 1;
+		int b = 4;
+		int c = 6;
+		double x;
+		int discriminant = b*b - 4*a*c;
+		if(discriminant == 0) {
+			x = (-b + discriminant)/2*a;
+			System.out.println(x);
+		} else if(discriminant > 0) {
+			x = (-b + discriminant)/2*a;
+			System.out.println(x);
+		} else {
+			System.out.println('The equation has no real roots');
+		}
+	}
+}

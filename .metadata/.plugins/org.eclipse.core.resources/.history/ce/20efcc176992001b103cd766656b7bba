@@ -1,0 +1,29 @@
+package AssignmentSet3;
+import java.util.Scanner;
+
+public class LeapYearChecker {
+	public static int[] findLeapYears(int year){
+		int count = 1;
+		int [] leapYears;
+		while(count<=15) {
+			year+=4;
+			if(year%100==0) {
+				leapYears[count-1] = year;
+				count++;
+			}
+		}
+		return leapYears;
+   }
+    
+   public static void main(String[] args) {
+	   Scanner input = new Scanner(System.in);
+	   System.out.println("Enter a year: ");
+       int year = input.nextInt();
+       
+	   int[] leapYears;
+	   leapYears=findLeapYears(year);
+	   for ( int index = 0; index<leapYears.length; index++ ) {
+	       System.out.println(leapYears[index]);
+	   }
+    }
+}

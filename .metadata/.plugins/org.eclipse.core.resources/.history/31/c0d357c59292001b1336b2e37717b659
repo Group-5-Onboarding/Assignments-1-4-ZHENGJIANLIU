@@ -1,0 +1,20 @@
+package AssignmentSet3;
+
+public class ReverseEachWord {
+	public static String reverseEachWord(String str){
+		String result = "";
+	    for(String w: str.split(" ")) {
+	    	char[] wArray = w.toCharArray();
+	    	for(char c: wArray) {
+	    		result+=c;
+	    	}
+	    	System.out.println(wArray);
+	    }
+        return result;
+	}
+	
+	public static void main(String args[]){
+	    String str = "all cows eat grass";
+	    System.out.println(reverseEachWord(str));
+	}
+}
