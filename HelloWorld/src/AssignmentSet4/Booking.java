@@ -12,7 +12,7 @@ public class Booking {
 	public Booking(String customerEmail, int seatsRequired) {
 		this.customerEmail = customerEmail;
 		this.seatsRequired = seatsRequired;
-		if(seatsAvailable>seatsRequired) {			
+		if(seatsAvailable>=seatsRequired) {			
 			Booking.seatsAvailable -=seatsRequired;
 			this.setBooked(true);
 		}else {
