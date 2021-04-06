@@ -7,12 +7,12 @@ public class Booking {
 	private static int seatsAvailable;
 	
 	static {
-		seatsAvailable = 449;
+		seatsAvailable = 451;
 	}
 	public Booking(String customerEmail, int seatsRequired) {
 		this.customerEmail = customerEmail;
 		this.seatsRequired = seatsRequired;
-		if(seatsAvailable>seatsRequired) {			
+		if(seatsAvailable>=seatsRequired) {			
 			Booking.seatsAvailable -=seatsRequired;
 			this.setBooked(true);
 		}else {
@@ -50,10 +50,8 @@ public class Booking {
 	public static void main(String[] args) {
 		Booking booking1 = new Booking("jack@email.com", 100);
         Booking booking2 = new Booking("jill@email.com", 350);
-
-        //Create more objects and add them to the bookings array for testing your code
-        
-        Booking[] bookings = { booking1, booking2 };
+        Booking booking3 = new Booking("heyhey@email.com", 1);
+        Booking[] bookings = { booking1, booking2, booking3};
               
         for (Booking booking : bookings) {
             if (booking.isBooked()) {
@@ -64,5 +62,6 @@ public class Booking {
                 System.out.println("Seats available: "+Booking.getSeatsAvailable());
             }
          }
+        System.out.println("Seats available: " + Booking.getSeatsAvailable());
 	}
 }
