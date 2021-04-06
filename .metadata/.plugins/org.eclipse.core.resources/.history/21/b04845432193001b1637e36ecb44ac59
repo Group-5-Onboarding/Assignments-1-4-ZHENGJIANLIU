@@ -1,8 +1,0 @@
-package AssignmentSet4;
-
-public class Booking {
-	private String customerEmail;
-	private int seatsRequired;
-	private boolean isBooked;
-	private int seatAvailable;
-}

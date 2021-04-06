@@ -1,6 +1,6 @@
 package com.infy;
 
-class Food {
+public class Food {
 	private String foodName;
 	private String cuisine;
 	private String foodType;

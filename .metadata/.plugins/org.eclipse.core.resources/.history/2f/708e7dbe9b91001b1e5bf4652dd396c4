@@ -1,8 +1,0 @@
-package SwitftFood;
-import java.util.Scanner;
-
-public class Order {
-	public statcic void main(String[] args) {
-		
-	}
-}
