@@ -56,7 +56,7 @@ class Triangle {
 		this.point3 = new Point(2,5);
 	}
 	
-	Triangle(double point1XCoordinate, double point1YCoordinate, double point2XCoordinate, double point2YCoordinate, double point3XCoordinate, double point3YCoordinate){
+	public Triangle(double point1XCoordinate, double point1YCoordinate, double point2XCoordinate, double point2YCoordinate, double point3XCoordinate, double point3YCoordinate){
 		this.point1 = new Point(point1XCoordinate, point1YCoordinate);
 		this.point2 = new Point(point2XCoordinate, point2YCoordinate);
 		this.point3 = new Point(point3XCoordinate, point3YCoordinate);
