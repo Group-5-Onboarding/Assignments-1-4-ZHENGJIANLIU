@@ -1,8 +1,0 @@
-package AssignmentSet1;
-import java.util.Scanner;
-
-public class Assignment8 {
-	public static void main(String[] args) {
-		
-	}
-}
